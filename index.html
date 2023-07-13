@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,31 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facedook</title>
     <style>
+        .bd {
+            display: flex;
+        }
+        .head{
+            padding: 180px 150px;
+        }
+        h1 {
+            color: blue;
+        }
+        p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        
 
     </style>
 </head>
-<body>
+<body class="bd">
     <div class="head">
         <h1>facebook</h1>
         <p>Facebook helps you connect and share with the people in your life</p>
 
     </div>
-    <div class="from">
+    <div class="form">
        <form>
-        <label for="text">
-            <input type="text" name="" id="text" placeholder="Email address or phone number">
+        <label id="label" for="text">
+            <input type="text" name="" id="text" placeholder="Email address or phone number"><br><br>
         </label>
-        <label for="password">
+        <label id="label" for="password">
             <input type="password" id="password" placeholder="Password">
 
-        </label>
-        <button class="btn">Log in</button>
+        </label><br><br>
+        <button class="btn">Log in</button><br><br>
         <a href="">Forget password</a>
         <br>
-        <hr>
-        <button class="creat-bgtn">Creating new account</button>
+        <hr><br>
+        <button class="creat-btn">Creating new account</button>
        </form>
     </div>
-    
+
 </body>
 </html>
